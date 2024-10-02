@@ -54,3 +54,10 @@ Deleting an element from an array
 2. Delete element at third position
 3. For deleting an element from an array, the elements need to be shifted towards the position from which the element has to be deleted.
 
+Limitations of Array:
+                    1. An array can contain data of only similar type.Heterogeneous elements cannot be stored in an array.
+                    2. Array is of fixed size. Once declared, size cannot be changed.
+                    3. Insertion and deletion operations are expensive in terms of memory as they require shifting of elements and might lead to loss of data if we try to exceed the capacity of array.
+                    4. The elements of an array are stored in continuous memory locations.If the required number of blocks are not present together in the memory,then the array will not be created.
+
+ 
